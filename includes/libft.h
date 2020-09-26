@@ -6,7 +6,7 @@
 /*   By: rpunet <rpunet@student.42madrid.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/06 16:34:45 by user42            #+#    #+#             */
-/*   Updated: 2020/09/25 21:20:28 by rpunet           ###   ########.fr       */
+/*   Updated: 2020/09/26 12:17:20 by rpunet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ void				ft_sort_int(int *res, int size);
 int					ft_count_digit(int num);
 char				*ft_strnew(size_t len);
 int					ft_pow(int a, int exp);
+int					ft_min(int a, int b);
 int					ft_max(int a, int b);
 void				*ft_memset(void *b, int c, size_t len);
 void				ft_bzero(void *str, size_t n);
